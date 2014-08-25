@@ -1,0 +1,291 @@
+,month,repository_name,repository_url,new_stars,repository_created_at,repository_language,t_stars
+0,2014-07,awesome-awesomeness,https://github.com/bayandin/awesome-awesomeness,5976,2014-07-08 05:44:19,null,5990.0
+1,2014-07,js-must-watch,https://github.com/bolshchikov/js-must-watch,5359,2014-06-21 09:56:48,null,5375.0
+2,2014-07,awesome-python,https://github.com/vinta/awesome-python,5287,,,
+3,2014-07,breach_core,https://github.com/breach/breach_core,4636,2013-09-20 16:05:01,JavaScript,4651.0
+4,2014-07,ToolsOfTheTrade,https://github.com/cjbarber/ToolsOfTheTrade,4561,2014-05-29 04:11:33,null,4600.0
+5,2014-07,hydra,https://github.com/sdegutis/hydra,4098,2014-06-19 12:10:55,C,4111.0
+6,2014-07,awesome-go,https://github.com/avelino/awesome-go,3597,2014-07-06 13:42:15,null,3598.0
+7,2014-07,awesome-machine-learning,https://github.com/josephmisiti/awesome-machine-learning,2504,,,
+8,2014-07,FLEX,https://github.com/Flipboard/FLEX,2472,2014-05-29 00:58:29,Objective-C,2479.0
+9,2014-07,BOOTSTRA.386,https://github.com/kristopolous/BOOTSTRA.386,2370,2013-04-12 13:17:25,CSS,2956.0
+10,2014-06,the-swift-programming-language-in-chinese,https://github.com/numbbbbb/the-swift-programming-language-in-chinese,6490,,,
+11,2014-06,FlappySwift,https://github.com/fullstackio/FlappySwift,5980,2014-06-03 05:04:12,Swift,6039.0
+12,2014-06,awesome-sysadmin,https://github.com/kahun/awesome-sysadmin,5284,2014-02-09 22:39:20,null,5393.0
+13,2014-06,web-starter-kit,https://github.com/google/web-starter-kit,5174,2014-04-07 08:45:18,CSS,5269.0
+14,2014-06,meteor,https://github.com/meteor/meteor,4583,2012-01-19 01:58:17,JavaScript,16955.0
+15,2014-06,card,https://github.com/jessepollak/card,4478,,,
+16,2014-06,cayley,https://github.com/google/cayley,3037,2014-06-05 18:49:41,Go,3045.0
+17,2014-06,swift-cheat-sheet,https://github.com/grant/swift-cheat-sheet,2842,,,
+18,2014-06,httpie,https://github.com/jakubroztocil/httpie,2541,2012-02-25 12:39:13,Python,9977.0
+19,2014-06,bounce.js,https://github.com/tictail/bounce.js,2339,2014-04-10 13:59:41,CSS,2501.0
+20,2014-05,atom,https://github.com/atom/atom,5895,2012-01-20 18:18:21,CoffeeScript,5888.0
+21,2014-05,quill,https://github.com/quilljs/quill,3593,2012-07-30 23:23:18,CoffeeScript,3605.0
+22,2014-05,http-api-design,https://github.com/interagent/http-api-design,2936,2014-05-07 17:00:37,null,2954.0
+23,2014-05,pop,https://github.com/facebook/pop,2746,2014-03-30 22:29:12,Objective-C++,7180.0
+24,2014-05,resume.github.com,https://github.com/resume/resume.github.com,2685,2011-02-06 13:39:55,JavaScript,11983.0
+25,2014-05,tablesaw,https://github.com/filamentgroup/tablesaw,2558,2013-08-26 18:19:32,JavaScript,2577.0
+26,2014-05,syncthing,https://github.com/calmh/syncthing,2479,2013-11-26 09:48:21,Go,3069.0
+27,2014-05,github-cheat-sheet,https://github.com/tiimgreen/github-cheat-sheet,2315,2014-04-12 16:38:42,null,9173.0
+28,2014-05,css-loaders,https://github.com/lukehaas/css-loaders,2280,2014-05-06 20:58:53,CSS,2294.0
+29,2014-05,atom-shell,https://github.com/atom/atom-shell,2098,2013-04-12 01:47:36,C++,2103.0
+30,2014-04,github-cheat-sheet,https://github.com/tiimgreen/github-cheat-sheet,6751,2014-04-12 16:38:42,null,6897.0
+31,2014-04,gitbook,https://github.com/GitbookIO/gitbook,5025,2014-03-31 03:01:56,JavaScript,5044.0
+32,2014-04,free-programming-books,https://github.com/vhf/free-programming-books,4308,2013-10-11 06:50:37,null,24895.0
+33,2014-04,pop,https://github.com/facebook/pop,4238,2014-03-30 22:29:12,Objective-C++,4498.0
+34,2014-04,slick,https://github.com/kenwheeler/slick,3858,2014-03-24 02:10:05,JavaScript,5610.0
+35,2014-04,huginn,https://github.com/cantino/huginn,3543,2013-03-10 06:00:31,Ruby,7067.0
+36,2014-04,famous,https://github.com/Famous/famous,3054,2014-04-09 18:05:24,null,3095.0
+37,2014-04,winjs,https://github.com/winjs/winjs,2393,,,
+38,2014-04,portia,https://github.com/scrapinghub/portia,2308,2014-03-21 14:24:31,Python,2302.0
+39,2014-04,trianglify,https://github.com/qrohlf/trianglify,2259,2014-04-12 04:30:29,JavaScript,2312.0
+40,2014-03,popcorn-app,https://github.com/popcorn-time/popcorn-app,10695,,,
+41,2014-03,papers-we-love,https://github.com/papers-we-love/papers-we-love,6808,2013-12-15 14:31:41,null,6832.0
+42,2014-03,gremlins.js,https://github.com/marmelab/gremlins.js,3892,2013-10-21 08:47:12,JavaScript,4070.0
+43,2014-03,2048,https://github.com/gabrielecirulli/2048,3603,2014-03-05 16:03:26,CSS,3648.0
+44,2014-03,Shimmer,https://github.com/facebook/Shimmer,2641,2014-02-18 22:15:19,Objective-C,2649.0
+45,2014-03,ngxtop,https://github.com/lebinh/ngxtop,2286,2014-03-21 15:39:52,Python,2460.0
+46,2014-03,ScrollMagic,https://github.com/janpaepke/ScrollMagic,2255,2013-09-23 08:08:53,JavaScript,2258.0
+47,2014-03,code-guide,https://github.com/mdo/code-guide,2092,,,
+48,2014-03,bootflat.github.io,https://github.com/bootflat/bootflat.github.io,2089,2014-03-06 07:04:21,CSS,2116.0
+49,2014-03,brick,https://github.com/alfredxing/brick,2055,,,
+50,2014-02,neovim,https://github.com/neovim/neovim,5053,2014-01-31 13:39:22,C,4995.0
+51,2014-02,pageres,https://github.com/sindresorhus/pageres,3640,2014-02-07 18:15:18,JavaScript,3655.0
+52,2014-02,north,https://github.com/Snugug/north,2808,2013-11-08 15:00:48,CSS,3792.0
+53,2014-02,hackathon-starter,https://github.com/sahat/hackathon-starter,2467,2013-11-13 17:24:12,CSS,5497.0
+54,2014-02,drone,https://github.com/drone/drone,2462,2014-02-07 07:54:44,Go,2448.0
+55,2014-02,instantclick,https://github.com/dieulot/instantclick,2448,2013-11-23 10:08:40,JavaScript,2520.0
+56,2014-02,textql,https://github.com/dinedal/textql,2351,2014-02-03 03:48:49,Go,2356.0
+57,2014-02,localForage,https://github.com/mozilla/localForage,2043,2013-10-31 00:10:06,JavaScript,2181.0
+58,2014-02,free-programming-books,https://github.com/vhf/free-programming-books,1995,2013-10-11 06:50:37,null,19806.0
+59,2014-02,godot,https://github.com/okamstudio/godot,1738,,,
+60,2014-01,LightTable,https://github.com/LightTable/LightTable,4001,2012-06-27 22:32:43,Clojure,4738.0
+61,2014-01,Hover,https://github.com/IanLunn/Hover,3350,2014-01-02 14:27:35,CSS,3378.0
+62,2014-01,colors,https://github.com/mrmrs/colors,3225,2013-06-17 06:31:51,CSS,3237.0
+63,2014-01,hackathon-starter,https://github.com/sahat/hackathon-starter,3052,2013-11-13 17:24:12,CSS,3073.0
+64,2014-01,free-programming-books,https://github.com/vhf/free-programming-books,3045,2013-10-11 06:50:37,null,17861.0
+65,2014-01,linux-dash,https://github.com/afaqurk/linux-dash,2469,2013-10-16 14:58:47,CSS,2477.0
+66,2014-01,js-the-right-way,https://github.com/braziljs/js-the-right-way,2353,2012-08-07 23:39:05,CSS,2639.0
+67,2014-01,codecombat,https://github.com/codecombat/codecombat,2260,,,
+68,2014-01,quietnet,https://github.com/Katee/quietnet,2222,2013-11-01 18:09:57,Python,2251.0
+69,2014-01,tether,https://github.com/HubSpot/tether,1981,,,
+70,2013-12,SpinKit,https://github.com/tobiasahlin/SpinKit,4406,2013-12-12 23:29:41,null,4504.0
+71,2013-12,How-to-Make-a-Computer-Operating-System,https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System,4004,,,
+72,2013-12,resume.github.com,https://github.com/resume/resume.github.com,2993,2011-02-06 13:39:55,JavaScript,7624.0
+73,2013-12,jquery.adaptive-backgrounds.js,https://github.com/briangonzalez/jquery.adaptive-backgrounds.js,2922,2013-11-16 20:32:05,JavaScript,2911.0
+74,2013-12,headroom.js,https://github.com/WickyNilliams/headroom.js,2726,2013-08-07 20:42:58,JavaScript,2821.0
+75,2013-12,websocketd,https://github.com/joewalnes/websocketd,2683,2013-02-14 14:52:55,Go,2694.0
+76,2013-12,myth,https://github.com/segmentio/myth,2514,2013-12-16 09:22:19,CSS,2495.0
+77,2013-12,Craft,https://github.com/fogleman/Craft,2061,2013-04-09 19:47:38,C,2021.0
+78,2013-12,koa,https://github.com/koajs/koa,2011,2013-07-20 18:53:45,JavaScript,2249.0
+79,2013-12,free-programming-books,https://github.com/vhf/free-programming-books,1968,2013-10-11 06:50:37,null,14926.0
+80,2013-11,resume.github.com,https://github.com/resume/resume.github.com,6471,2011-02-06 13:39:55,JavaScript,5338.0
+81,2013-11,javascript,https://github.com/airbnb/javascript,3810,2012-11-01 23:13:50,null,6876.0
+82,2013-11,ink,https://github.com/zurb/ink,2840,2013-09-18 20:13:27,PHP,2830.0
+83,2013-11,PixelKit-Bootstrap-UI-Kits,https://github.com/Pixelkit/PixelKit-Bootstrap-UI-Kits,2686,2013-10-25 15:01:53,CSS,3435.0
+84,2013-11,free-programming-books,https://github.com/vhf/free-programming-books,2502,2013-10-11 06:50:37,null,13056.0
+85,2013-11,martini,https://github.com/codegangsta/martini,2141,2013-10-30 02:34:07,Go,2122.0
+86,2013-11,Android-Bootstrap,https://github.com/Bearded-Hen/Android-Bootstrap,2090,,,
+87,2013-11,You-Dont-Know-JS,https://github.com/getify/You-Dont-Know-JS,2079,2013-11-16 02:37:24,null,2052.0
+88,2013-11,presto,https://github.com/facebook/presto,1874,2012-08-09 01:03:37,Java,1841.0
+89,2013-11,ionic,https://github.com/driftyco/ionic,1662,2013-08-20 23:06:02,JavaScript,1656.0
+90,2013-10,free-programming-books,https://github.com/vhf/free-programming-books,10722,2013-10-11 06:50:37,null,10628.0
+91,2013-10,Ghost,https://github.com/TryGhost/Ghost,5723,2013-05-04 11:09:13,JavaScript,5761.0
+92,2013-10,lime,https://github.com/quarnster/lime,4502,2012-10-03 18:10:02,Go,4590.0
+93,2013-10,offline,https://github.com/HubSpot/offline,3368,2013-10-21 20:14:57,CSS,3344.0
+94,2013-10,odometer,https://github.com/HubSpot/odometer,2997,2013-10-08 21:32:22,CSS,2820.0
+95,2013-10,PredictionIO,https://github.com/PredictionIO/PredictionIO,2683,2013-01-25 19:42:32,Scala,2952.0
+96,2013-10,FullScreenMario,https://github.com/Diogenesthecynic/FullScreenMario,2628,2013-01-25 06:02:52,JavaScript,2646.0
+97,2013-10,oboe.js,https://github.com/jimhigson/oboe.js,2410,2013-03-11 19:04:05,JavaScript,2589.0
+98,2013-10,Snap.svg,https://github.com/adobe-webplatform/Snap.svg,2390,2013-08-15 20:51:34,JavaScript,2412.0
+99,2013-10,FastImageCache,https://github.com/path/FastImageCache,2382,2013-08-21 22:44:53,Objective-C,2366.0
+100,2013-09,Semantic-UI,https://github.com/jlukic/Semantic-UI,3299,2013-04-08 23:32:04,JavaScript,3505.0
+101,2013-09,favicon-cheat-sheet,https://github.com/audreyr/favicon-cheat-sheet,3006,2013-08-05 12:54:19,null,4176.0
+102,2013-09,pace,https://github.com/HubSpot/pace,2292,,,
+103,2013-09,rainyday.js,https://github.com/maroslaw/rainyday.js,2238,2013-08-01 20:37:07,JavaScript,2552.0
+104,2013-09,vex,https://github.com/HubSpot/vex,2066,2013-09-05 23:09:57,CoffeeScript,2226.0
+105,2013-09,Octodog_Invasion,https://github.com/mandatoryprogrammer/Octodog_Invasion,1837,2013-09-28 04:03:41,null,4935.0
+106,2013-09,cocktails_for_programmers,https://github.com/the-teacher/cocktails_for_programmers,1712,2013-09-10 13:17:38,null,1846.0
+107,2013-09,favico.js,https://github.com/ejci/favico.js,1603,,,
+108,2013-09,bootstrap,https://github.com/twbs/bootstrap,1502,2011-07-29 21:19:00,JavaScript,58934.0
+109,2013-09,togetherjs,https://github.com/mozilla/togetherjs,1485,2012-12-05 00:15:41,JavaScript,2624.0
+110,2013-08,nprogress,https://github.com/rstacruz/nprogress,3816,2013-08-20 13:58:02,JavaScript,4470.0
+111,2013-08,bootstrap,https://github.com/twbs/bootstrap,3102,,,
+112,2013-08,ungit,https://github.com/FredrikNoren/ungit,2964,2013-05-19 10:44:44,JavaScript,3341.0
+113,2013-08,skeuocard,https://github.com/kenkeiter/skeuocard,2272,2013-07-29 17:39:56,CoffeeScript,2621.0
+114,2013-08,parallax,https://github.com/wagerfield/parallax,2212,2013-08-01 15:28:05,JavaScript,2443.0
+115,2013-08,gumbo-parser,https://github.com/google/gumbo-parser,2127,2013-08-02 18:33:38,C,2443.0
+116,2013-08,Medium.js,https://github.com/jakiestfu/Medium.js,1847,2013-07-30 22:09:47,JavaScript,1982.0
+117,2013-08,Mailpile,https://github.com/pagekite/Mailpile,1806,2011-10-30 23:45:22,Python,1906.0
+118,2013-08,FlowType.JS,https://github.com/simplefocus/FlowType.JS,1685,2013-08-13 21:10:16,JavaScript,1760.0
+119,2013-08,maximum-awesome,https://github.com/square/maximum-awesome,1513,2013-06-18 00:14:21,VimL,1793.0
+120,2013-07,Effeckt.css,https://github.com/h5bp/Effeckt.css,4740,,,
+121,2013-07,bootstrap,https://github.com/twitter/bootstrap,2637,,,
+122,2013-07,quine-relay,https://github.com/mame/quine-relay,2240,2013-07-15 13:29:20,Ruby,2649.0
+123,2013-07,daux.io,https://github.com/justinwalsh/daux.io,2000,2013-06-03 12:42:18,PHP,2114.0
+124,2013-07,Projects,https://github.com/thekarangoel/Projects,1921,,,
+125,2013-07,finalterm,https://github.com/p-e-w/finalterm,1814,2013-04-16 17:09:52,Vala,2412.0
+126,2013-07,ProjectTox-Core,https://github.com/irungentoo/ProjectTox-Core,1785,2013-06-24 00:12:13,C,1972.0
+127,2013-07,groupcache,https://github.com/golang/groupcache,1630,2013-07-22 21:55:07,Go,1822.0
+128,2013-07,VerbalExpressions,https://github.com/jehna/VerbalExpressions,1550,2013-07-19 14:59:46,JavaScript,1637.0
+129,2013-07,ideas,https://github.com/samsquire/ideas,1499,2013-01-19 19:59:09,null,1704.0
+130,2013-06,frontend-dev-bookmarks,https://github.com/dypsilon/frontend-dev-bookmarks,4136,2013-06-22 13:23:55,null,4827.0
+131,2013-06,Ladda,https://github.com/hakimel/Ladda,3151,2013-06-05 08:30:13,JavaScript,3338.0
+132,2013-06,AngularJS-Learning,https://github.com/jmcunningham/AngularJS-Learning,2554,2013-06-06 20:48:17,null,2805.0
+133,2013-06,Probabilistic-Programming-and-Bayesian-Methods-for-Hackers,https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers,2094,2013-01-14 15:46:28,Python,3254.0
+134,2013-06,code-problems,https://github.com/blakeembrey/code-problems,2041,2013-05-22 19:19:29,JavaScript,2126.0
+135,2013-06,pure,https://github.com/yui/pure,1992,2013-04-22 16:16:39,JavaScript,4231.0
+136,2013-06,bootstrap,https://github.com/twitter/bootstrap,1620,2011-07-29 21:19:00,JavaScript,52333.0
+137,2013-06,Seriously.js,https://github.com/brianchirls/Seriously.js,1413,2011-09-10 16:50:41,JavaScript,2140.0
+138,2013-06,skrollr,https://github.com/Prinzhorn/skrollr,1410,2012-03-18 15:41:35,JavaScript,4388.0
+139,2013-06,dokku,https://github.com/progrium/dokku,1170,2013-06-08 10:26:57,Shell,1267.0
+140,2013-05,Magnific-Popup,https://github.com/dimsemenov/Magnific-Popup,2035,2013-01-10 16:09:24,JavaScript,2219.0
+141,2013-05,pure,https://github.com/yui/pure,1947,2013-04-22 16:16:39,JavaScript,2238.0
+142,2013-05,bootstrap,https://github.com/twitter/bootstrap,1823,2011-07-29 21:19:00,JavaScript,50924.0
+143,2013-05,FlatUIKit,https://github.com/Grouper/FlatUIKit,1740,2013-05-08 21:56:44,Objective-C,1892.0
+144,2013-05,two.js,https://github.com/jonobr1/two.js,1722,2012-09-05 23:19:40,JavaScript,1972.0
+145,2013-05,topcoat,https://github.com/topcoat/topcoat,1650,2012-11-01 15:12:16,JavaScript,2256.0
+146,2013-05,pdf2htmlEX,https://github.com/coolwanglu/pdf2htmlEX,1516,2012-08-04 17:59:25,C++,2356.0
+147,2013-05,stringer,https://github.com/swanson/stringer,1450,2013-04-06 04:51:27,Ruby,1497.0
+148,2013-05,xctool,https://github.com/facebook/xctool,1426,2013-04-24 05:18:44,Objective-C,1532.0
+149,2013-05,polymer,https://github.com/Polymer/polymer,1364,2012-08-23 20:56:30,JavaScript,1503.0
+150,2013-04,chardin.js,https://github.com/heelhook/chardin.js,2730,2013-04-01 02:58:47,CoffeeScript,2932.0
+151,2013-04,helios,https://github.com/helios-framework/helios,2243,2013-04-02 17:39:09,Ruby,2567.0
+152,2013-04,bootstrap-wysiwyg,https://github.com/mindmup/bootstrap-wysiwyg,2163,2013-04-04 19:54:42,JavaScript,2467.0
+153,2013-04,csscss,https://github.com/zmoazeni/csscss,2048,2013-03-01 23:17:25,Ruby,2209.0
+154,2013-04,verlet-js,https://github.com/subprotocol/verlet-js,1974,2013-04-10 07:22:41,JavaScript,2103.0
+155,2013-04,bootstrap,https://github.com/twitter/bootstrap,1943,2011-07-29 21:19:00,JavaScript,49357.0
+156,2013-04,Snap.js,https://github.com/jakiestfu/Snap.js,1717,2013-04-01 23:57:34,JavaScript,1802.0
+157,2013-04,rendr,https://github.com/airbnb/rendr,1394,2012-10-31 19:24:35,CoffeeScript,1532.0
+158,2013-04,log,https://github.com/adamschwartz/log,1354,,,
+159,2013-04,responsive-nav.js,https://github.com/viljamis/responsive-nav.js,1203,2013-03-05 18:27:06,JavaScript,1384.0
+160,2013-03,Flat-UI,https://github.com/designmodo/Flat-UI,3883,,,
+161,2013-03,jQuery-menu-aim,https://github.com/kamens/jQuery-menu-aim,3705,2013-03-03 02:50:35,JavaScript,4280.0
+162,2013-03,intro.js,https://github.com/usablica/intro.js,3675,2013-03-10 15:12:45,JavaScript,4230.0
+163,2013-03,Chart.js,https://github.com/nnnick/Chart.js,3471,2013-03-17 23:56:36,JavaScript,3138.0
+164,2013-03,bootstrap,https://github.com/twitter/bootstrap,2299,2011-07-29 21:19:00,JavaScript,47649.0
+165,2013-03,huginn,https://github.com/cantino/huginn,2142,2013-03-10 06:00:31,Ruby,2469.0
+166,2013-03,dashing,https://github.com/Shopify/dashing,1526,2012-07-18 21:01:40,JavaScript,3585.0
+167,2013-03,pixi.js,https://github.com/GoodBoyDigital/pixi.js,1414,2013-01-21 22:40:50,JavaScript,1519.0
+168,2013-03,NewsBlur,https://github.com/samuelclay/NewsBlur,1308,2009-01-05 14:00:43,Python,2284.0
+169,2013-03,linuxgems,https://github.com/WilliamHackmore/linuxgems,1246,2012-08-14 09:21:37,Shell,1288.0
+170,2013-02,discourse,https://github.com/discourse/discourse,3492,2013-01-12 00:25:55,JavaScript,4432.0
+171,2013-02,flight,https://github.com/twitter/flight,2548,2013-01-30 19:59:30,JavaScript,3395.0
+172,2013-02,typeahead.js,https://github.com/twitter/typeahead.js,2293,2013-02-19 19:45:01,JavaScript,2519.0
+173,2013-02,bootstrap,https://github.com/twitter/bootstrap,1871,2011-07-29 21:19:00,JavaScript,45598.0
+174,2013-02,hint.css,https://github.com/chinchang/hint.css,1654,,,
+175,2013-02,dropzone,https://github.com/enyo/dropzone,1558,2012-02-12 16:19:18,CoffeeScript,1949.0
+176,2013-02,Redacted-Font,https://github.com/christiannaths/Redacted-Font,1289,2013-02-07 08:26:31,null,1423.0
+177,2013-02,YouCompleteMe,https://github.com/Valloric/YouCompleteMe,1100,2012-04-16 03:12:14,C++,1149.0
+178,2013-02,jquery.payment,https://github.com/stripe/jquery.payment,1011,2012-12-23 08:20:09,CoffeeScript,1171.0
+179,2013-02,learnGitBranching,https://github.com/pcottle/learnGitBranching,915,2012-08-13 22:36:09,JavaScript,935.0
+180,2013-01,Parsley.js,https://github.com/guillaumepotier/Parsley.js,2111,2012-12-16 14:52:04,JavaScript,2340.0
+181,2013-01,bootstrap,https://github.com/twitter/bootstrap,2019,2011-07-29 21:19:00,JavaScript,44127.0
+182,2013-01,Font-Awesome,https://github.com/FortAwesome/Font-Awesome,1521,2012-02-17 14:19:43,JavaScript,11147.0
+183,2013-01,howdoi,https://github.com/gleitz/howdoi,1158,2012-11-22 08:49:24,Python,1221.0
+184,2013-01,junior,https://github.com/justspamjustin/junior,1117,2012-12-27 15:38:20,JavaScript,1135.0
+185,2013-01,d3,https://github.com/mbostock/d3,1033,2010-09-27 17:22:42,JavaScript,12148.0
+186,2013-01,elusive-iconfont,https://github.com/aristath/elusive-iconfont,987,2012-12-22 03:53:35,JavaScript,1561.0
+187,2013-01,html5-boilerplate,https://github.com/h5bp/html5-boilerplate,868,2010-01-24 18:03:24,JavaScript,17993.0
+188,2013-01,angular.js,https://github.com/angular/angular.js,848,2010-01-06 00:34:37,JavaScript,6355.0
+189,2013-01,jquery,https://github.com/jquery/jquery,832,2009-04-03 15:20:14,JavaScript,18809.0
+190,2012-12,better_errors,https://github.com/charliesome/better_errors,2087,2012-12-08 11:02:18,Ruby,2374.0
+191,2012-12,bootstrap,https://github.com/twitter/bootstrap,1732,2011-07-29 21:19:00,JavaScript,42393.0
+192,2012-12,nui,https://github.com/tombenner/nui,1265,2012-11-26 04:07:08,Objective-C,1337.0
+193,2012-12,analytics.js,https://github.com/segmentio/analytics.js,1121,2012-06-18 05:38:24,JavaScript,1269.0
+194,2012-12,Font-Awesome,https://github.com/FortAwesome/Font-Awesome,1079,2012-02-17 14:19:43,JavaScript,9690.0
+195,2012-12,d3,https://github.com/mbostock/d3,981,2010-09-27 17:22:42,JavaScript,11161.0
+196,2012-12,select2,https://github.com/ivaynberg/select2,872,2012-03-04 18:43:12,JavaScript,4643.0
+197,2012-12,xcharts,https://github.com/tenXer/xcharts,829,2012-12-04 22:26:34,JavaScript,855.0
+198,2012-12,rails_panel,https://github.com/dejan/rails_panel,813,2012-11-18 15:29:24,Ruby,876.0
+199,2012-12,brackets,https://github.com/adobe/brackets,789,2011-12-07 21:14:40,JavaScript,8385.0
+200,2012-11,ratchet,https://github.com/maker/ratchet,2483,2012-08-17 05:41:57,JavaScript,2939.0
+201,2012-11,bootstrap,https://github.com/twitter/bootstrap,1580,2011-07-29 21:19:00,JavaScript,40937.0
+202,2012-11,colour-schemes,https://github.com/daylerees/colour-schemes,1379,,,
+203,2012-11,pickadate.js,https://github.com/amsul/pickadate.js,1372,2012-11-16 01:36:42,JavaScript,1612.0
+204,2012-11,bootstrap-modal,https://github.com/jschr/bootstrap-modal,1356,2012-09-26 20:06:00,JavaScript,1691.0
+205,2012-11,alertify.js,https://github.com/fabien-d/alertify.js,1190,2012-06-09 02:50:10,JavaScript,1542.0
+206,2012-11,Garlic.js,https://github.com/guillaumepotier/Garlic.js,934,2012-11-10 15:58:25,JavaScript,1012.0
+207,2012-11,dashing,https://github.com/Shopify/dashing,932,2012-07-18 21:01:40,JavaScript,1446.0
+208,2012-11,d3,https://github.com/mbostock/d3,894,2010-09-27 17:22:42,JavaScript,10229.0
+209,2012-11,x-editable,https://github.com/vitalets/x-editable,890,2012-11-19 14:12:46,JavaScript,978.0
+210,2012-10,bootstrap,https://github.com/twitter/bootstrap,1720,2011-07-29 21:19:00,JavaScript,39599.0
+211,2012-10,selfstarter,https://github.com/lockitron/selfstarter,925,2012-10-11 17:42:56,Ruby,972.0
+212,2012-10,brackets,https://github.com/adobe/brackets,818,2011-12-07 21:14:40,JavaScript,7372.0
+213,2012-10,pattern,https://github.com/clips/pattern,790,2011-05-03 15:29:01,Python,1049.0
+214,2012-10,foundation,https://github.com/zurb/foundation,785,2011-10-13 23:05:42,Ruby,7009.0
+215,2012-10,gitlabhq,https://github.com/gitlabhq/gitlabhq,784,2011-10-02 16:25:27,Ruby,5003.0
+216,2012-10,bootmetro,https://github.com/aozora/bootmetro,773,2012-05-26 13:41:43,JavaScript,822.0
+217,2012-10,syte,https://github.com/rigoneri/syte,770,2012-05-27 03:18:33,JavaScript,2025.0
+218,2012-10,scripted,https://github.com/scripted-editor/scripted,747,2012-10-10 16:07:12,JavaScript,776.0
+219,2012-10,Makisu,https://github.com/soulwire/Makisu,727,2012-10-18 00:01:35,JavaScript,774.0
+220,2012-09,bower,https://github.com/twitter/bower,2937,2012-09-07 00:15:39,JavaScript,1873.0
+221,2012-09,bootstrap,https://github.com/twitter/bootstrap,2494,2011-07-29 21:19:00,JavaScript,38097.0
+222,2012-09,tomorrow-theme,https://github.com/chriskempson/tomorrow-theme,2347,2011-02-14 15:43:03,VimL,3550.0
+223,2012-09,yeoman,https://github.com/yeoman/yeoman,1930,2012-04-13 05:12:21,JavaScript,1381.0
+224,2012-09,xiki,https://github.com/trogdoro/xiki,1245,2008-06-05 01:03:11,Ruby,1048.0
+225,2012-09,html5-boilerplate,https://github.com/h5bp/html5-boilerplate,1226,2010-01-24 18:03:24,JavaScript,15728.0
+226,2012-09,textmate,https://github.com/textmate/textmate,1151,2012-08-08 16:25:52,C++,7164.0
+227,2012-09,glances,https://github.com/nicolargo/glances,1126,2011-12-04 08:49:15,Python,859.0
+228,2012-09,reveal.js,https://github.com/hakimel/reveal.js,1102,2011-06-07 18:54:22,JavaScript,3771.0
+229,2012-09,jquery.avgrund.js,https://github.com/voronianski/jquery.avgrund.js,1054,2012-08-25 18:36:52,JavaScript,775.0
+230,2012-08,textmate,https://github.com/textmate/textmate,8862,,,
+231,2012-08,bootstrap,https://github.com/twitter/bootstrap,7848,2011-07-29 21:19:00,JavaScript,36642.0
+232,2012-08,piecon,https://github.com/lipka/piecon,3184,2012-08-01 21:27:02,JavaScript,1396.0
+233,2012-08,html5-boilerplate,https://github.com/h5bp/html5-boilerplate,2920,2010-01-24 18:03:24,JavaScript,15012.0
+234,2012-08,normalize.css,https://github.com/necolas/normalize.css,2730,2011-05-04 10:20:25,null,6140.0
+235,2012-08,bootstrap-daterangepicker,https://github.com/dangrossman/bootstrap-daterangepicker,2650,2012-08-20 01:53:06,JavaScript,748.0
+236,2012-08,BigVideo.js,https://github.com/dfcb/BigVideo.js,2312,2012-08-14 21:10:43,JavaScript,626.0
+237,2012-08,d3,https://github.com/mbostock/d3,2164,2010-09-27 17:22:42,JavaScript,8243.0
+238,2012-08,infinity,https://github.com/airbnb/infinity,2106,2012-08-08 18:54:33,JavaScript,875.0
+239,2012-08,reveal.js,https://github.com/hakimel/reveal.js,2070,2011-06-07 18:54:22,JavaScript,3060.0
+240,2012-07,bootstrap,https://github.com/twitter/bootstrap,4730,2011-07-29 21:19:00,JavaScript,34410.0
+241,2012-07,mousetrap,https://github.com/ccampbell/mousetrap,3538,2012-07-05 03:13:55,JavaScript,2154.0
+242,2012-07,httpie,https://github.com/jkbr/httpie,2480,2012-02-25 12:39:13,Python,2663.0
+243,2012-07,brackets,https://github.com/adobe/brackets,2432,2011-12-07 21:14:40,JavaScript,5801.0
+244,2012-07,node,https://github.com/joyent/node,1718,2009-05-27 16:29:46,JavaScript,16870.0
+245,2012-07,android,https://github.com/github/android,1716,2011-09-08 16:52:50,Java,1005.0
+246,2012-07,jquery,https://github.com/jquery/jquery,1714,2009-04-03 15:20:14,JavaScript,15891.0
+247,2012-07,meteor,https://github.com/meteor/meteor,1624,2012-01-19 01:58:17,JavaScript,4807.0
+248,2012-07,dotfiles,https://github.com/mathiasbynens/dotfiles,1608,2011-09-05 18:07:54,VimL,4029.0
+249,2012-07,foundation,https://github.com/zurb/foundation,1606,2011-10-13 23:05:42,PHP,5314.0
+250,2012-06,gmaps,https://github.com/HPNeo/gmaps,6256,2011-10-08 03:55:37,JavaScript,2684.0
+251,2012-06,bootstrap,https://github.com/twitter/bootstrap,5300,2011-07-29 21:19:00,JavaScript,32241.0
+252,2012-06,folly,https://github.com/facebook/folly,4700,2012-06-01 20:49:04,C++,2195.0
+253,2012-06,brackets,https://github.com/adobe/brackets,4639,2011-12-07 21:14:40,JavaScript,4573.0
+254,2012-06,select2,https://github.com/ivaynberg/select2,4249,2012-03-04 18:43:12,JavaScript,2057.0
+255,2012-06,Font-Awesome,https://github.com/FortAwesome/Font-Awesome,3800,2012-02-17 14:19:43,JavaScript,5456.0
+256,2012-06,idiomatic-css,https://github.com/necolas/idiomatic-css,3148,2012-05-24 10:21:44,null,1300.0
+257,2012-06,chosen,https://github.com/harvesthq/chosen,3053,2011-04-18 15:07:41,JavaScript,7706.0
+258,2012-06,angular.js,https://github.com/angular/angular.js,2209,2010-01-06 00:34:37,JavaScript,2386.0
+259,2012-06,node,https://github.com/joyent/node,2121,2009-05-27 16:29:46,JavaScript,16125.0
+260,2012-05,bootstrap,https://github.com/twitter/bootstrap,6846,2011-07-29 21:19:00,JavaScript,29987.0
+261,2012-05,wysihtml5,https://github.com/xing/wysihtml5,5673,2011-06-20 09:07:20,JavaScript,2931.0
+262,2012-05,brackets,https://github.com/adobe/brackets,4329,2011-12-07 21:14:40,JavaScript,1584.0
+263,2012-05,jQuery-Knob,https://github.com/aterrien/jQuery-Knob,3225,2011-11-22 19:10:52,JavaScript,1352.0
+264,2012-05,django,https://github.com/django/django,3102,2012-04-28 02:47:18,Python,2500.0
+265,2012-05,XobotOS,https://github.com/xamarin/XobotOS,2526,2012-04-30 21:53:19,Java,969.0
+266,2012-05,node,https://github.com/joyent/node,2520,2009-05-27 16:29:46,JavaScript,15320.0
+267,2012-05,d3,https://github.com/mbostock/d3,2289,2010-09-27 17:22:42,JavaScript,6146.0
+268,2012-05,jquery,https://github.com/jquery/jquery,2133,2009-04-03 15:20:14,JavaScript,14339.0
+269,2012-05,vert.x,https://github.com/purplefox/vert.x,1917,2011-06-17 14:54:55,Java,1161.0
+270,2012-04,meteor,https://github.com/meteor/meteor,7539,2012-01-19 01:58:17,JavaScript,3016.0
+271,2012-04,bootstrap,https://github.com/twitter/bootstrap,7464,2011-07-29 21:19:00,JavaScript,27705.0
+272,2012-04,Prince-of-Persia-Apple-II,https://github.com/jmechner/Prince-of-Persia-Apple-II,5994,2012-04-16 23:40:34,Assembly,2748.0
+273,2012-04,jQuery-File-Upload,https://github.com/blueimp/jQuery-File-Upload,4089,2010-12-01 15:35:32,JavaScript,5244.0
+274,2012-04,django,https://github.com/django/django,3681,,,
+275,2012-04,dotfiles,https://github.com/mathiasbynens/dotfiles,2937,2011-09-05 18:07:54,VimL,2704.0
+276,2012-04,mosh,https://github.com/keithw/mosh,2805,2011-01-09 09:41:02,C++,1014.0
+277,2012-04,mruby,https://github.com/mruby/mruby,2805,,,
+278,2012-04,foresight.js,https://github.com/adamdbradley/foresight.js,2649,2012-03-13 19:24:19,JavaScript,1291.0
+279,2012-04,mojito,https://github.com/yahoo/mojito,2595,,,
+280,2012-03,bootstrap,https://github.com/twitter/bootstrap,6291,2011-07-29 21:19:00,JavaScript,25177.0
+281,2012-03,BrowserQuest,https://github.com/mozilla/BrowserQuest,4608,2011-09-30 18:47:48,JavaScript,1971.0
+282,2012-03,mailcheck,https://github.com/Kicksend/mailcheck,3888,2012-03-12 07:36:39,JavaScript,1503.0
+283,2012-03,php-src,https://github.com/php/php-src,3855,2011-06-16 01:52:25,C,1675.0
+284,2012-03,tesseract,https://github.com/square/tesseract,2622,,,
+285,2012-03,bootstrap-wysihtml5,https://github.com/jhollingworth/bootstrap-wysihtml5,2436,2012-03-19 22:26:50,JavaScript,927.0
+286,2012-03,jQuery-File-Upload,https://github.com/blueimp/jQuery-File-Upload,2280,2010-12-01 15:35:32,JavaScript,3710.0
+287,2012-03,hammer.js,https://github.com/EightMedia/hammer.js,2259,2012-03-02 12:58:28,JavaScript,831.0
+288,2012-03,Font-Awesome,https://github.com/FortAwesome/Font-Awesome,2235,2012-02-17 14:19:43,JavaScript,2611.0
+289,2012-03,legit,https://github.com/kennethreitz/legit,2211,2011-06-25 05:58:18,Python,1125.0

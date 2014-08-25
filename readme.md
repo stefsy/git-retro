@@ -1,60 +1,30 @@
-# Git Time Machine
-
-### The greatest hits of yesteryear.
-
-How many stars does it to take to make it on to the top 100 list?
-
-What's the average distribution of stars?
-
-Who are the one hit wonders?
-    bar chart with median # of stars as one bar
-
-Longest on the billboard?
-
-over time, how many more stars do you have to get to hit the billboard?
-
-August is only half over! remember to throw it out when you're done.
-
-manual cleaning, some repositories had multiple urls!
-for example, popcorn-app got DMCA's, and a bunch of other repos mushroomed
-https://github.com/popcorn-official/popcorn-app
-manually grouped them together and attached the url of a working repo
-
-march 2014, when popcorn app moved between 3 different
-popcorn-time
-popcorn-team
-Yify
+# Git Retro:
 
 
-2013-03,Flat-UI,https://github.com/iurevych/Flat-UI,1505
-2013-03,Flat-UI,https://github.com/designmodo/Flat-UI,3883
+
+###[Click here for the live submission! ](http://www.stefsy.com/git-time-machine)
 
 
-from twitter to twbs
-2013-07,bootstrap,https://github.com/twbs/bootstrap,1247
 
 
-30 total months
+# What is this?
+* A short history of repos Githubbers used to think were cool and trendy.
+* A monthly aggregate of star events across all repositories.
+* Data from the <a href="http://www.githubarchive.org/"> GitHub Archive</a>
 
-Platinum Repositories
-bootstrap            33
-d3                   30
-node                 29
-Font-Awesome         28
-angular.js           27
-reveal.js            24
-jquery               23
-gitignore            22
-moment               20
-html5-boilerplate    20
-foundation           20
-oh-my-zsh            18
-gitlabhq             17
-impress.js           17
-docker               17
-brackets             16
-linux                15
 
-add class to rect , hover color
-add ids to text, string of new star counts
-rather than bigass buttons.... 29 circles? another viz?
+
+# What are some fun facts about this data? </h3>
+* 231 repos have ever been on the top 10 list.
+* Bootstrap is the all time platinum repo, staying on the board for 19 of the 29 months recorded.
+* Popcorn-app was huge in March 2014, but kept getting moving around and mushrooming back to life under different owners.
+* The mininum number of stars it takes to get on the top 10 list is 727;
+* the median is 2,287.5;
+* and the maximum is 10,722.
+
+
+# Steps?
+1. ran `analysis/bigtable.sql` on Bigtable to get `star_trends_full.csv`
+2. grabbed current details of any live repos using `analysis/grab_repo_details.py`
+3. some pandas work to clean and merge the data into the `billboard_created.csv` file
+4. lots of d3.js, see `time-machine.html`
