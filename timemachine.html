@@ -1,0 +1,318 @@
+{% extends "baselayout.html" %}
+{% block body %}
+
+<style>
+    body { font-family: 'Lato', sans-serif; color: #3d3d3d; margin: 0; }
+    .dates { margin-bottom: 30px; margin-top: 25px; }
+
+
+    .helpbox 		{      border: 1px solid #f93;
+                           padding: 2px;
+                           font-size: 15px;
+                           text-align: center;
+                           word-wrap:break-word;
+                           position:absolute;
+                           width: 200px;
+                           height: 400px;
+                           left: 800px;
+                            }
+    .nameText { }
+    .countText { font-size: 12px; }
+    .dates          {       width: 100%;
+                            height: 30px; }
+    .month {}
+
+    .dateTip {  position:absolute;
+                width: 100px;
+                text-align: center;
+                display:none;
+                font-size: 14px; }
+
+</style>
+
+<title>Git Time Machine</title>
+<h1>Git Retro: Top 10 Trendiest Repos from 2012 to Today</h1>
+<br>
+
+<div id = "currentMonth">
+    <h2>Repos with the most new stars over Mar 2012 </h2>
+</div>
+
+<div class = "dates">
+    <div class = "dateTip">
+    </div>
+</div>
+
+<div class = "frame">
+    <div class = "helpbox">
+        <br>
+        <h2> Click on the dots!  </h2>
+        <br>
+        <h2> Mouse over the repo bars! </h2>
+        <br><br>
+        <p> </p>
+    </div>
+</div>
+
+<div class = "writeup">
+    <h3> What do I do? </h3>
+    <br>
+    <p> Click on the dots! Mouse over the bars! Click on the bars!</p>
+    <br>
+    <h3> What is this? </h3>
+    <br>
+    <ul>
+        <li>A short history of repos Githubbers used to think were cool and trendy.
+        <li>A monthly aggregate of star events across all repositories.
+        <li>Data from the <a href="http://www.githubarchive.org/"> GitHub Archive</a>
+        <li>Repo available <a href="https://github.com/stefsy/git-retro">here </a>
+    </ul>
+    <br>
+    <h3> What are some fun facts about this data? </h3>
+    <br>
+    <ul>
+        <li> 231 repos have ever been on the top 10 list.
+        <li> Bootstrap is the all time platinum repo, staying on the board for 19 of the 29 months recorded.
+        <li> Popcorn-app was huge in March 2014, but kept getting moving around and mushrooming back to life under different owners.
+        <li> The mininum number of stars it takes to get on the top 10 list is 727;
+        <li> &nbsp;&nbsp;&nbsp;&nbsp; the median is 2,287.5;
+        <li> &nbsp;&nbsp;&nbsp;&nbsp; and the maximum is 10,722.
+
+    </ul>
+
+
+</div>
+
+<p style="font-size:11px"><a href="{{url_for('homepage')}}"> <-- go home</a></p>
+
+<script>
+    var width = 800,
+        height = 400;
+
+    var colHt = 35;
+
+    var nCols = 10;
+    var color = d3.scale.category20();
+
+// move to own file later!
+    var dateData = { "dates" : [
+            {"date": "2012-03", "display": "Mar \n 2012"},
+            {"date": "2012-04", "display": "Apr \n 2012"},
+            {"date": "2012-05", "display": "May \n 2012"},
+            {"date": "2012-06", "display": "Jun \n 2012"},
+            {"date": "2012-07", "display": "Jul \n 2012"},
+            {"date": "2012-08", "display": "Aug \n 2012"},
+            {"date": "2012-09", "display": "Sep \n 2012"},
+            {"date": "2012-10", "display": "Oct \n 2012"},
+            {"date": "2012-11", "display": "Nov \n 2012"},
+            {"date": "2012-12", "display": "Dec \n 2012"},
+            {"date": "2013-01", "display": "Jan \n 2013"},
+            {"date": "2013-02", "display": "Feb \n 2013"},
+            {"date": "2013-03", "display": "Mar \n 2013"},
+            {"date": "2013-04", "display": "Apr \n 2013"},
+            {"date": "2013-05", "display": "May \n 2013"},
+            {"date": "2013-06", "display": "Jun \n 2013"},
+            {"date": "2013-07", "display": "Jul \n 2013"},
+            {"date": "2013-08", "display": "Aug \n 2013"},
+            {"date": "2013-09", "display": "Sep \n 2013"},
+            {"date": "2013-10", "display": "Oct \n 2013"},
+            {"date": "2013-11", "display": "Nov \n 2013"},
+            {"date": "2013-12", "display": "Dec \n 2013"},
+            {"date": "2014-01", "display": "Jan \n 2014"},
+            {"date": "2014-02", "display": "Feb \n 2014"},
+            {"date": "2014-03", "display": "Mar \n 2014"},
+            {"date": "2014-04", "display": "Apr \n 2014"},
+            {"date": "2014-05", "display": "May \n 2014"},
+            {"date": "2014-06", "display": "Jun \n 2014"},
+            {"date": "2014-07", "display": "Jul \n 2014"}
+        ]}
+
+    var chart = d3.selectAll(".frame").append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+    var defaultFilter ='2012-03';
+
+    var date = d3.selectAll(".dates").append("svg")
+                .attr("width",width + 200)
+                .attr("height", 50);
+
+    var dateline = date.append("line")
+        .attr("x1", 25)
+        .attr("y1", 25)
+        .attr("x2", 100)
+        .attr("y2", 25)
+        .style("stroke", '#999')
+        .style("stroke-width", 1);
+
+    dateline.transition()
+        .attr("x2", 970)
+        .duration(1000);
+
+    var circ = date.selectAll(".month")
+            .data(dateData.dates)
+        .enter().append("circle")
+            .attr("class", "circ")
+            .attr("id", function(d) { return d.date; })
+            .attr("desc", function(d) { return d.display; })
+            .attr("cx", function(d,i) { return i * 33.50 + 30; })
+            .attr("cy", 25)
+            .attr("r", 6)
+            .style("fill", "5067bd" )
+        .filter(function(d) {return d.date.substr(0,4) !== '2012';})
+            .style("fill", "409cb1" )
+        .filter(function(d) {return d.date.substr(0,4) === '2014';})
+            .style("fill", "46cb69" );
+            // slightly hacky , v. proud.
+            // initially filters data from (2012,2013,2014) to (2013,2014), apply color 2
+            // then filters (2013,2014) for 2014 and applies color 3
+
+
+
+d3.csv("{{ url_for('static', filename='billboard_created.csv') }}", function(error, data) {
+
+  data.forEach(function(d) {
+    d.new_stars = +d.new_stars;
+  });
+
+  var x = d3.scale.linear()
+    //fix later only works for 2013, domain must update on max(new_stars)
+      .domain([0,6200])
+      .range([0,height]);
+
+    var rect = chart.selectAll("rect")
+        .data(data.filter(function(d) {return d.month === defaultFilter;}))
+        .enter()
+            .append("svg:a")
+                .attr("xlink:href", function(d) { return d.repository_url; })
+            .append("rect")
+                .attr("class","bars")
+                .attr("y", function(d,i) { return i * (colHt + 2) ; })
+                .attr("width",0)
+                .attr("height", colHt )
+                .style("fill", "#999");
+                // .style("fill", function(d,i) { return color(i);} )
+
+    rect.transition()
+        .attr("width", function(d) { return x(d.new_stars);})
+        .duration(800);
+
+    var nameText = chart.selectAll("nameText")
+        .data(data.filter(function(d) {return d.month === defaultFilter;}))
+        .enter().append("text")
+            .attr("class","nameText")
+            .attr("dy", function(d,i) { return i * (colHt+2) + (colHt/2+5); })
+            .attr("x", 10 )
+            .text( function(d) {  return d.repository_name;} )
+            .attr("width", this.getComputedTextLength );
+
+    var countText = chart.selectAll("countText")
+        .data(data.filter(function(d) {return d.month === defaultFilter;}))
+        .enter().append("text")
+            .attr("class","countText")
+            .attr("dy", function(d,i) { return i * (colHt+2) + (colHt/2+5); })
+            //this next line makes sure text doesn't overlap w/ labels
+            .attr("dx", function(d) {  return ( x(d.new_stars) + 10 ) ;}  )
+            .text( function(d) {  return String(d.new_stars) + " new stars";} );
+
+    //change the attributes of pre-existing elements
+    var tooltips = chart.selectAll(".bars")
+        .on("mouseover", function(d,i) {
+            d3.select(this)
+                .style("fill","#f93");
+
+            var cr =  new Date(d.repository_created_at);
+            d3.select(".helpbox")
+                .style("left","800px")
+                .style("top",d.y - 30 +"px")
+                .style("display","inline")
+                .html( "<br><h2>" + d.repository_name + "</h2> <br> \
+                <a href=" + d.repository_url + ">go to the repo</a> <br><br> \
+                <p>" + d.repository_name + " was \
+                starred " + d.new_stars + " times this month. </p> \
+                <br><br> It was created on <br>" + cr.toDateString() + ".<br> \
+                 and written mostly in " + d.repository_language + "<br>");
+        })
+        .on("mouseout", function(d,i){
+            d3.select(rect[0][i])
+                .style("fill","#999");
+            //d3.select(".helpbox")
+            //    .style("display","none");
+        });
+
+
+    var dateExpand = date.selectAll(".circ")
+        .on("mouseover", function(d,i) {
+            d3.select(this)
+                .transition()
+                    .attr("r",20)
+                .duration(150);
+            d3.select(".dateTip")
+                .style("left", i*33.50 + 70 + "px")
+                .style("top", "136px")
+                .style("display","inline")
+                .attr("id", d.date)
+                .html(d.display);
+        })
+        .on("mouseout", function(d,i){
+            d3.select(this)
+                .transition()
+                    .attr("r",5)
+                .duration(75);
+            d3.select(".dateTip")
+                .style("display", "none");
+        });
+
+
+ $('.circ').click(function(){
+     //`this` gives me all attributes of the button
+    //  console.log(this);
+     //`this.id` gives me the id, which i can use to filter!! but its not matching...
+    //  console.log(String(this.id));
+
+     //omg in javascript == and === are not the same
+    //  console.log(String(this.id) === defaultFilter);
+
+
+    var newFilter = String(this.id);
+
+    var timer = 500;
+
+    //awful! i'm sorry.
+    var dt = new Date(this.id.substr(0,4), this.id.substr(5,6),0);
+
+    //what a gross bit of date code
+    $('#currentMonth').html("<h2> Repos with the most new stars over " + dt.toDateString().substr(4,3) + " " + dt.getFullYear()+ "</h2>");
+
+    chart.selectAll("a")
+        .data(data.filter(function(d) { return d.month === newFilter;}))
+            .attr("xlink:href", function(d) { return d.repository_url; });
+
+    rect.data(data.filter(function(d) { return d.month === newFilter;}))
+        .transition()
+            .attr("y", function(d,i) { return i * (colHt + 2) ; })
+            .attr("width", function(d) { return x(d.new_stars);})
+            .attr("height", colHt )
+            .style("fill", "#999")
+            .duration(timer);
+
+    // to get a subset, filter in here
+    nameText.data(data.filter(function(d) {return d.month === newFilter;}))
+            .attr("dy", function(d,i) { return i * (colHt+2) + (colHt/2+5); })
+            .attr("x", 10)
+            .text( function(d) {  return d.repository_name;} );
+
+    countText.data(data.filter(function(d) {return d.month === newFilter;}))
+        .transition()
+            .attr("dy", function(d,i) { return i * (colHt+2) + (colHt/2+5); })
+            .attr("dx", function(d) {  return ( x(d.new_stars) + 10 )> 220 ? x(d.new_stars) + 10 : 220 ;}  )
+            .text( function(d) {  return String(d.new_stars) + " new stars" ;} )
+        .duration(timer);
+ });
+
+});
+
+</script>
+
+
+{% endblock %}
